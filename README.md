@@ -84,7 +84,9 @@ pipeline = CrisisAnalysisPipeline(
     use_sample_data=False
 )
 crisis_data = pipeline.run_pipeline()
-Output
+outputs of the model![image](https://github.com/user-attachments/assets/69e48209-72f4-4cf9-a789-d5346157a1ef)
+![image](https://github.com/user-attachments/assets/2a4a231f-dcc2-4280-948e-ebe65e24e7a8)
+
 The pipeline generates several outputs:
 
 cleaned_crisis_data.csv: Preprocessed dataset with sentiment and risk scores
@@ -103,7 +105,8 @@ Use the tool as part of a broader intervention strategy, not as a standalone sol
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
-Contributing
+Contributing 
+
 Contributions are welcome! Please feel free to submit a Pull Request.
 Acknowledgments
 
